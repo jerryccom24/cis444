@@ -1,0 +1,18 @@
+table{
+    border-collapse: collapse;  
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+
+td{
+    text-align: center;
+    border: 3px solid red;
+    padding: 6px;
+}
+
+
+th{
+    text-align: center;
+    border: 3px solid black;
+    padding: 6px;
+}

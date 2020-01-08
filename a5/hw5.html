@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">  
+<!--
+Jerry Compton
+HW 5
+File Name: hw5.html
+assignment link: http://cis444.cs.csusm.edu/compt008/a5/hw5.html
+-->
+
+<head>
+    <title>Jerry Compton | HW5</title>
+    <meta charset = "utf-8" />
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+
+<body onload="start()">  
+
+    <h1>Jerry Compton | HW 5</h1>
+    <p id="message">Save time with TIME-SAVER 2.2</p>
+    
+    <br><br><br>
+
+    <form onsubmit="update(); return false;">  
+
+        <label for="start">Start Postition</label>
+        <input type="number" id="start" min="0" max="1200" value="0">
+
+        <label for="end">End Postition</label>
+        <input type="number" id="end" min="0" max="1200" value ="1200">
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <p><b>Note:</b> Default max range is between 0 and 1200.</p>
+
+</body>
+</html>

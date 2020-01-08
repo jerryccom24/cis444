@@ -1,0 +1,12 @@
+/* Default Styping for our moving message*/
+#message{
+    left:0px;
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    font-family: 'Times New Roman';   
+}
+
+input{
+    width:75px;
+}

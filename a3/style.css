@@ -1,0 +1,26 @@
+/*
+Jerry Compton
+File name: style.css
+HW 3
+
+***Styling for hw3.html***
+*/
+table{
+    border-collapse: collapse;  
+    font-family: Helvetica;
+}
+
+td{
+    text-align: center;
+    border: 3px solid blue;
+    padding: 6px;
+}
+
+
+th{
+    text-align: center;
+    border: 3px solid blue;
+    padding: 6px;
+}
+
+
