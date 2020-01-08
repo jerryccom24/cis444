@@ -1,0 +1,46 @@
+table{
+    border-collapse: collapse;  
+    
+}
+
+td{
+    text-align: center;
+    border: 3px solid black;
+    padding: 6px;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    left: -150px;
+}
+
+th{
+    text-align: center;
+    border: 3px solid black;
+    padding: 6px;
+}
+
+img{
+    position: relative;
+    top: -5px;
+    
+}
+
+label,input{
+    padding: 6px;
+    font-weight: bold;
+    
+    
+}
+
+h1,h2{
+    padding: 6px;
+    background-color:#0080ff;
+    font-weight: bold;
+    
+}
+
+body{
+background: white;
+}
